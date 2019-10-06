@@ -11,8 +11,8 @@
 		<artifactId>jacoco-maven-plugin</artifactId>
 		 <version>0.8.2</version>
                  <configuration>
-                     <destfile>${project.artifactId}/target/jacoco.exec</destfile>
-	                <datafile>${project.artifactId}/target/jacoco.exec</datafile>
+                     <destFile>${project.artifactId}/target/jacoco.exec</destFile>
+	                <dataFile>${project.artifactId}/target/jacoco.exec</dataFile>
 	         </configuration>
 			 
 		<executions>
