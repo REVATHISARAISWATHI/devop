@@ -9,12 +9,7 @@
 	<plugin>
 		<groupId>org.jacoco</groupId>
 		<artifactId>jacoco-maven-plugin</artifactId>
-		 <version>0.8.2</version>
-                 <configuration>
-                     <destFile>${project.artifactId}/target/jacoco.exec</destFile>
-	                <dataFile>${project.artifactId}/target/jacoco.exec</dataFile>
-	         </configuration>
-			 
+		 <version>0.8.2</version>	 
 		<executions>
 			<execution>
 				<goals>
