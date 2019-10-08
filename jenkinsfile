@@ -14,4 +14,11 @@ pipeline
                  }
          }
          }
-    }
+         stage('SonarQube analysis') {
+       steps{
+        withSonarQubeEnv('SonarQube') {
+            sh 'mvn package sonar:sonar'
+           }
+       }
+   }
+   }
